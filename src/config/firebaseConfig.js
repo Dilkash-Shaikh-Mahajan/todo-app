@@ -1,16 +1,16 @@
 import firebase from 'firebase/app';
 import 'firebase/firestore';
 import 'firebase/auth';
-const firebaseConfig = {
-	apiKey: 'AIzaSyBrVAk0f54BeeAoHVR6YKEmDQLVUwxeVa4',
-	authDomain: 'todo-3fcab.firebaseapp.com',
-	databaseURL: 'https://todo-3fcab.firebaseio.com',
-	projectId: 'todo-3fcab',
-	storageBucket: 'todo-3fcab.appspot.com',
-	messagingSenderId: '210377303452',
-	appId: '1:210377303452:web:f7ae9e9c24524c47065459',
-};
 
+const firebaseConfig = {
+	apiKey: 'AIzaSyAwpqfBIu5IPSrycpzITBm_S9k85AXnk5A',
+	authDomain: 'todoapp-5993d.firebaseapp.com',
+	databaseURL: 'https://todoapp-5993d.firebaseio.com',
+	projectId: 'todoapp-5993d',
+	storageBucket: 'todoapp-5993d.appspot.com',
+	messagingSenderId: '332875802346',
+	appId: '1:332875802346:web:36680b1f5e98a3499a9993',
+};
 firebase.initializeApp(firebaseConfig);
 firebase.firestore();
 
